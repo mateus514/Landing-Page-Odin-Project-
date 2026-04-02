@@ -1,0 +1,210 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+
+/*Top css*/
+
+.header{
+    display: flex;
+    justify-content: space-around;    
+    width: 100%;
+    height: 32rem;
+    background: #25272b;
+}
+
+.header-links{
+    display: flex;
+    gap: 30px;
+    margin-top: 27px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.header-links a:hover{
+    color: rgb(122, 122, 122);
+}
+ul{
+    list-style-type: none;
+}
+.title{
+    color: orange;
+    font-weight: bolder;
+    margin-top: 20px;
+    font-size: 24px;
+}
+.texts{
+    color:  white;
+    margin-top: 1rem;
+}
+
+button{
+    background: none;
+    border: none;
+}
+
+.sign{
+    padding: 0;
+    /*ajustei o botao com padding 0, tomaaaaaa*/
+}
+
+.sign a{
+    font-weight: bolder;
+    padding: 8px 30px;
+    border-radius: 10px;
+    background-color: rgb(165, 107, 0);
+    color: white;
+}
+.sign a:hover{
+    background-color: rgb(78, 51, 1);
+    color: rgb(122, 122, 122);
+}
+
+.organization{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0px 20rem;
+    gap: 4rem;
+}
+.cima{
+    display: flex;
+    justify-content: space-between;
+}
+
+.description{
+    max-width: 30rem;
+    margin-bottom: 40px;
+}
+
+.texto-e-imagem{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.imagem-direita{
+    height: 68%;
+    width: 40%;
+    border-radius: 15px 50px 30px;
+    border: 4px solid orange;
+}
+
+
+
+
+/*Mid css*/
+
+.mid{
+    height: 30rem;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title-image-mid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+.layout-mid{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0rem 4rem;
+    gap: 3rem;
+    margin-top: 4rem;
+}
+.img-mid{
+    height: 8rem;
+    width: 8rem;
+    border-radius: 10px;
+    border: 4px solid #25272b;
+}
+.imagem-e-text-mid{
+    max-width: 8rem;
+}
+.description-mid{
+    margin-top: 10px;
+    text-align: center;
+}
+.Title-mid{
+    font-size: 32px;
+    text-decoration: 4px solid underline orange;
+}
+
+/*message*/
+
+.message{
+    display: flex;
+    height: 30rem;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+}
+.message-text{
+    font-weight: 300;
+    max-width: 40%;
+    font-style: italic;
+    font-size: 36px;
+    text-align: center;
+    color: #1F2937
+}
+
+/*final*/
+
+.final-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25rem;
+    background-color: white;
+}
+
+.final-padding{
+    background-color: #25272b;
+    padding: 3rem 10rem;
+    border-radius: 10px;
+    color: white;
+}
+
+.final-title,.final-description{
+    padding:0;
+    margin:0;
+}
+.final-cima{
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 4rem;
+}
+.final-button{
+    display: flex;
+    align-items: center;
+}
+
+/*Footer*/
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    width: 100%;
+    background-color: #25272b;
+}
+.footer-message{
+    font-weight: bolder 100;
+    font-size: 14px;
+    color: white;
+}
+
